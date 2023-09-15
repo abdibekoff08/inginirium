@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+<title>Инжинириум МГТУ им. Н.Э. Баумана - Курсы для детей и школьников</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel='stylesheet' href='bootstrap.bundle.css'/>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<div class='global'>
+    <div class='wrap'>
+	    <div class='sm-header'>
+		    <div class='sm-header__burger'></div>
+		    <a href='https://inginirium.ru'><div class='sm-header__logo'></div></a>
+	        <a href='#'><div class='sm-header__buttons' data-toggle='modal' data-target='#mainCTA'></div></a>		
+	    </div>
+	    <div class='d-header'>
+		    <div class='container d-head'>
+			    <div class='row align-items-top'>
+			        <div class='col-sm-12 col-md pb-sm-4 pb-md-0 px-sm-0'>
+                        <div class='d-header__title'>Центр молодежного инновационного творчества и технопарк</div>
+                        <div class='d-header__title_license'>Лицензия на осуществление образовательной деятельности № 040350 от 25.09.2019</div>
+                    </div>
+			        <div class='col-sm-6 col-md col-lg-3 col-xl-2 d-header__region-selector p-0'>
+			            <form method='post'>
+				            <select class='cityselect' name='geocity'>
+					        <option value='other' selected>Тараз</option><option value='mskm'>Алматы</option><option value='mskm'>Другой город</option>
+                            </select>
+                        </form>
+				    </div>
+				<div class='col-sm-6 col-sm-4 col-md-3 d-header__cta text-sm-center text-md-right'>
+                    <button type='button' data-toggle='modal' data-target='#mainCTA'>Записаться</button>
+                </div>
+                </div>
+		    </div>
+		    <div class='container d-menu'>
+			    <div class='row align-items-start'>
+			        <div class='col-sm-auto'><a href='https://inginirium.ru'><img alt='Инжинириум' src='https://inginirium.ru/img/inginirium.png'></a></div>
+			        <div class='container col-sm'>
+			            <div class='row align-items-center'>
+				            <a href='#' class='col-sm col-md-4 col-lg d-none d-md-block d-menu__item'>О нас</a>
+				            <a href='#' class='col-sm col-md-4 col-lg d-menu__item'>Курсы</a>
+		                    <a href='#' class='col-sm col-md-4 col-lg d-menu__item' style='white-space: nowrap;'>Мастер-классы</a>
+                            <a href='#' class='col-sm col-md-4 col-lg d-menu__item' style='white-space: nowrap;'>Технопарки</a>
+                            <a href='#' class='col-sm col-md-4 col-lg d-menu__item' style='white-space: nowrap;'>Лагеря</a>				
+                            <a href='#' class='col-sm col-md-4 col-lg d-none d-md-block d-menu__item'>Контакты</a>
+				            <a class='d-menu__phone col-sm-auto d-none d-xl-block' href='tel:88005005617'>8 800 500 56 17</a>
+			            </div>
+			        </div>
+			    </div>
+		    </div>
+	    </div>
+	 <div class='main__body'>
+		<div class='sm-body__menu'>
+			<div class='sm-body__menu_cityselector'>
+			    <div class='container'>
+				    <div class='row align-items-center'>
+					    <div class='col text-left'>Город</div>
+					    <div class='col text-right'>
+					        <form method='post'>
+						        <select class='sm-body__menu_cityselector_select' name='geocity'>
+						            <option value='other' selected>Тараз</option><option value='mskm'>Алматы</option><option value='mskm'>Другой город</option>					
+                                </select>
+					        </form>
+					    </div>
+				    </div>
+			    </div>
+			</div>
+			<ul>
+			<li><a href='#menuAbout' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='menuAbout'>О нас</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/about/'>Общая информация</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/price/'>Цены и скидки</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/faq/'>Ответы на вопросы</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/about/#partners'>Партнёры</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/about/#teachers'>Преподаватели</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/feedback/'>Отзывы</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/thanks/'>Благодарности</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/franchise/'>Франшиза</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuAbout'><a href='https://inginirium.ru/press/'>СМИ о нас</a></li>
+			<li><a href='#menuCourses' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='menuCourses'>Курсы</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/courses/'>Все курсы</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/course.php?cat=10'>Дошкольники</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/course.php?cat=1'>1-4 класс</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/course.php?cat=2'>5-8 класс</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/course.php?cat=3'>9-11 класс</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/course.php?online=1'>Онлайн</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuCourses'><a href='https://inginirium.ru/schedule/'>Расписание</a></li>			
+				<li><a href='https://inginirium.ru/master-classes/'>Мастер-классы</a></li>
+			<li><a href='#menuTechPark' data-toggle='collapse' role='button' aria-expanded='false' aria-controls='menuTechPark'>Технопарки</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuTechPark'><a href='https://inginirium.ru/technopark/'>О Технопарках</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuTechPark'><a href='https://inginirium.ru/cmit/'>ЦМИТ</a></li>
+				<li class='collapse sm-body__submenu_item' id='menuTechPark'><a href='https://inginirium.ru/students/'>Работа со студентами</a></li>
+			<li><a href='https://inginirium.ru/branches/'>Филиалы</a></li>
+			<li><a href='https://inginirium.ru/camps/'>Лагеря</a></li>
+				<li><a href='https://inginirium.ru/news/'>Новости</a></li>
+			<li><a href='https://inginirium.ru/contacts/'>Контакты</a></li>
+			</ul>
+		</div>
+	<div class='sm-body__content__overlay'></div>
+		
+	
+    <div id="carouselSlide" class="carousel slide main__corousel_global" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target='#carouselSlide' data-slide-to='0' class='active'></li><li data-target='#carouselSlide' data-slide-to='1'></li><li data-target='#carouselSlide' data-slide-to='2'></li><li data-target='#carouselSlide' data-slide-to='3'></li><li data-target='#carouselSlide' data-slide-to='4'></li>  
+        </ol>
+	    <div class="carousel-inner">
+            <div class='carousel-item active align-items-center justify-content-center align-self-center main__corousel__item' >
+                <div class='carousel-caption d-block align-items-center justify-content-center align-self-center'>
+		            <div class='container align-self-center main__corousel__item_container'>
+		                <div class='row align-self-start align-self-md-center justify-content-center align-items-center' style='margin: auto 0;'>
+			                <div class='col-12 col-sm-12 col-md main__corousel__cta_pic align-self-center text-center'><img alt='Открыт набор на бесплатные курсы программирования<br />В РАМКАХ ПРОЕКТА<br />"КОД БУДУЩЕГО"' src="img/slider1.png">
+                            </div>	
+			                <div class='col-12 col-sm-12 col-md align-self-center text-center text-md-left pl-md-5 pl-lg-0'>
+					            <div class='main__corousel__heading'>Открыт набор на бесплатные курсы программирования<br />В РАМКАХ ПРОЕКТА<br />"КОД БУДУЩЕГО"</div>	
+					            <div class='main__corousel__body'><span style="font-family: PFAgoraSlabPro, Arial;"><span style="font-size: 48px; text-transform: uppercase;"><strong>&nbsp; &nbsp;</strong></span></span>
+                                </div>
+                                <div class='d-flex justify-content-center justify-content-md-start'><a class='main__corousel__details_link' href='#'>Подробнее</a>
+                                </div>	
+				            </div>
+		                </div>
+		            </div>
+                </div>
+            </div>
+            <div class='carousel-item align-items-center justify-content-center main__corousel__item' >
+                <div class='carousel-caption d-block align-items-center justify-content-center align-self-center'>
+		            <div class='container align-self-center main__corousel__item_container'>
+		                <div class='row align-self-start align-self-md-center justify-content-center align-items-center' style='margin: auto 0;'>
+			                <div class='col-12 col-sm-12 col-md main__corousel__cta_pic align-self-center text-center'><img alt='Открыта запись на новый учебный год' src="img/slider2.png">
+                            </div>	
+			                <div class='col-12 col-sm-12 col-md align-self-center text-center text-md-left pl-md-5 pl-lg-0'>
+					            <div class='main__corousel__heading'>Открыта запись на новый учебный год</div>	
+					            <div class='main__corousel__body'>для детей от 5 до 18 лет</div>
+                                <div class='d-flex justify-content-center justify-content-md-start'><a class='main__corousel__details_link' href='https://inginirium.ru/schedule/'>Подробнее</a></div>	
+				            </div>
+		                </div>
+		            </div>
+                </div>
+            </div>
+            <div class='carousel-item align-items-center justify-content-center main__corousel__item' >
+                <div class='carousel-caption d-block align-items-center justify-content-center align-self-center'>
+		            <div class='container align-self-center main__corousel__item_container'>
+		                <div class='row align-self-start align-self-md-center justify-content-center align-items-center' style='margin: auto 0;'>
+			                    <div class='col-12 col-sm-12 col-md main__corousel__cta_pic align-self-center text-center'><img alt='Открыта запись на Летние Инженерные смены' src="img/slider3.png"></div>	
+			                    <div class='col-12 col-sm-12 col-md align-self-center text-center text-md-left pl-md-5 pl-lg-0'>
+					                <div class='main__corousel__heading'>Открыта запись<br />на Летние Инженерные смены</div>	
+					                <div class='main__corousel__body'>Для детей с 1 по 8 класс<br /><strong>В школьные каникулы!</strong></div><div class='d-flex justify-content-center justify-content-md-start'><a class='main__corousel__details_link' href='https://inginirium.ru/camps/'>Подробнее</a></div>	
+				                </div>
+		                </div>
+		            </div>
+                </div>
+            </div>
+        <div class='carousel-item align-items-center justify-content-center main__corousel__item' >
+            <div class='carousel-caption d-block align-items-center justify-content-center align-self-center'>
+		        <div class='container align-self-center main__corousel__item_container'>
+		            <div class='row align-self-start align-self-md-center justify-content-center align-items-center' style='margin: auto 0;'>
+			            <div class='col-12 col-sm-12 col-md main__corousel__cta_pic align-self-center text-center'><img alt='Оплата обучения Материнским капиталом' src="img/slider4.png"></div>	
+			            <div class='col-12 col-sm-12 col-md align-self-center text-center text-md-left pl-md-5 pl-lg-0'>
+					        <div class='main__corousel__heading'><br />Оплата обучения Материнским капиталом</div>	
+					        <div class='main__corousel__body'>В МГТУ ИМ. Н.Э. БАУМАНА</div>
+                            <div class='d-flex justify-content-center justify-content-md-start'><a class='main__corousel__details_link' href='https://inginirium.ru/docs/mothercapital.doc'>Подробнее</a></div>	
+				        </div>
+		            </div>
+		        </div>
+            </div>
+        </div>
+        <div class='carousel-item align-items-center justify-content-center main__corousel__item' >
+            <div class='carousel-caption d-block align-items-center justify-content-center align-self-center'>
+		            <div class='container align-self-center main__corousel__item_container'>
+		                <div class='row align-self-start align-self-md-center justify-content-center align-items-center' style='margin: auto 0;'>
+			                <div class='col-12 col-sm-12 col-md main__corousel__cta_pic align-self-center text-center'><img alt='Супер-калькулятор для расчета скидки' src="img/slider5.PNG"></div>	
+			                <div class='col-12 col-sm-12 col-md align-self-center text-center text-md-left pl-md-5 pl-lg-0'>
+					            <div class='main__corousel__heading'>Супер-калькулятор для расчета скидки</div>	
+					            <div class='main__corousel__body'>Теперь Вы можете рассчитать скидку самостоятельно</div>
+                                <div class='d-flex justify-content-center justify-content-md-start'><a class='main__corousel__details_link' href='https://inginirium.ru/price/index.    php#calc'>Подробнее</a></div>	
+				            </div>
+		                </div>
+		            </div>
+                </div>
+            </div>
+        </div>
+        <a class='carousel-control-prev' href='#carouselSlide' role='button' data-slide='prev'>
+            <span class='carousel-control-prev-icon' aria-hidden='true'></span>
+            <span class='sr-only'>Назад</span>
+        </a>
+        <a class='carousel-control-next' href='#carouselSlide' role='button' data-slide='next'>
+            <span class='carousel-control-next-icon' aria-hidden='true'></span>
+            <span class='sr-only'>Вперёд</span>
+        </a>
+    </div>
+
+
+    <div class=' col-12 my-5 text-center'><h2>Ступени обучения</h2></div>
+    <div class='mx-auto my-5 d-none d-xl-block'>
+	    <div class='main__steps'>
+		    <div class='main__steps_item'><a href='#'><img alt='Шаг 1' class='img-fluid' src='https://inginirium.ru/img/step1.png'></a></div>
+		    <div class='main__steps_item'><a href='#'><img alt='Шаг 2' class='img-fluid' src='https://inginirium.ru/img/step2.png'></a></div>
+		    <div class='main__steps_item'><a href='#'><img alt='Шаг 3' class='img-fluid' src='https://inginirium.ru/img/step3.png'></a></div>
+		    <div class='main__steps_item'><a href='#'><img alt='Шаг 4' class='img-fluid' src='https://inginirium.ru/img/step4.png'></a></div>
+		    <div class='main__steps_item'><a href='#'><img alt='Шаг 5' class='img-fluid' src='https://inginirium.ru/img/step5.png'></a></div>
+		    <div style='clear:both;'></div>
+	    </div>
+    </div>
+
+    <div class='container my-5 d-xl-none'>
+	    <div class='row main__steps_mobile align-items-end'><div class='main__steps_title main__steps_title5'><img alt='МГТУ им. Н.Э.Баумана' src='https://inginirium.ru/img/mgtu_small.png'></div>
+            <div class='col main__steps_s main__steps_s5'>> МГТУ им. Н.Э. Баумана</div>
+        </div>
+	    <div class='row'><div class='main__steps_title main__steps_title5'></div>
+            <div class='col main__steps_subtitle'>Поступление в ведущий технический ВУЗ страны</div>
+        </div>
+	    <div class='row main__steps_mobile'><div class='main__steps_title main__steps_title4'>9-11 класс</div>
+            <div class='col main__steps_s main__steps_s4'>> Технопарк</div>
+        </div>
+	    <div class='row'><div class='main__steps_title main__steps_title4'></div>
+            <div class='col main__steps_subtitle'>Подготовка к поступлению в ВУЗ, проектная деятельность</div>
+        </div>
+	    <div class='row main__steps_mobile'><div class='main__steps_title main__steps_title3'>5-8 класс</div><div class='col main__steps_s main__steps_s3'>> Инженерные курсы</div></div>
+	    <div class='row'><div class='main__steps_title main__steps_title3'></div>
+            <div class='col main__steps_subtitle'>Курсы для средней школы разной сложности</div>
+        </div>
+	    <div class='row main__steps_mobile'>
+            <div class='main__steps_title main__steps_title2'>1-4 класс</div>
+            <div class='col main__steps_s main__steps_s2'>> Подготовительные курсы</div>
+        </div>
+	    <div class='row'><div class='main__steps_title main__steps_title2'></div>
+            <div class='col main__steps_subtitle'>Для младших классов</div>
+        </div>
+	    <div class='row main__steps_mobile'><div class='main__steps_title main__steps_title1'>детский сад</div>
+            <div class='col main__steps_s main__steps_s1'>> Увлекательные курсы</div>
+        </div>
+	    <div class='row'><div class='main__steps_title main__steps_title1'></div>
+            <div class='col main__steps_subtitle'>Для самых маленьких</div>
+        </div>
+    </div>
+
+<div class='container'>
+    <div class='row'>
+        <div class='embed-responsive embed-responsive-16by9'>
+            <iframe title='Инжинириум МГТУ им. Н.Э.Баумана' class='embed-responsive-item' src='https://www.youtube.com/embed/WC2hRZlrcbs?rel=0'></iframe>
+        </div>
+    </div>
+</div>
+
+<script>
+$(document).ready(function() {
+  $( ".courses__item_inner_wrap" ).hover(
+  function() {
+    $(this).addClass('shadow').css('cursor', 'pointer'); 
+  }, function() {
+    $(this).removeClass('shadow');
+  }
+ );
+});
+</script>
+<div class='main__courses_global'>
+    <div class='container'>
+    <div class='my-5 text-center'><h2>Курсы "Инжинириум МГТУ им. Н.Э. Баумана"</h2></div>
+	    <div class='row'>
+	        <div class='col-xl-8'>
+	            <div class='row'>
+	                <a class='courses__item col-12 col-md-6 col-lg-6' href='https://inginirium.ru/courses/python-3d-8-11-intensive-online' style='background: url(https://inginirium.ru/files/course/%D0%9F%D0%A0%D0%9E%D0%93%D0%A0%D0%90%D0%9C%D0%9C%D0%98%D0%A0%D0%9E%D0%92%D0%90%D0%9D%D0%98%D0%95%20PYTHON%20%D0%9E%D0%9D%D0%9B%D0%90%D0%99%D0%9D-%D0%98%D0%9D%D0%A2%D0%95%D0%9D%D0%A1%D0%98%D0%92.svg) center 50px no-repeat;background-size: 123px 123px;'>
+				        <div class='courses__item_inner_wrap rounded'>
+					        <div class='courses__item_title flex-grow-1'>Python 3D. Онлайн-интенсив (8-11 класс)</div>
+					            <div class='container courses__item_bottom'>
+					            <div class='row align-items-center p-1'>
+						            <div class='col-7 text-left'>5 - 11 классы</div>
+						            <div class='col-5 text-right' style='font-weight:bold;font-size:13px;'>990 р/занятие</div>
+					            </div>
+					        </div>
+				        </div>
+				    </a>
+			
+				    <a class='courses__item col-12 col-md-6 col-lg-6' href='https://inginirium.ru/courses/AR-development-9-11-intensive-online' style='background: url(https://inginirium.ru/files/course/%D0%A0%D0%90%D0%97%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%9A%D0%90%20%D0%9F%D0%A0%D0%98%D0%9B%D0%9E%D0%96%D0%95%D0%9D%D0%98%D0%99%20%D0%94%D0%9E%D0%9F%20%D0%A0%D0%95%D0%90%D0%9B%D0%AC%D0%9D%D0%9E%D0%A1%D0%A2%D0%98.svg) center 50px no-repeat;background-size: 123px 123px;'>
+				        <div class='courses__item_inner_wrap rounded'>
+					        <div class='courses__item_title flex-grow-1'>Разработка приложений доп. реальности. Онлайн-интенсив. 9-11 класс</div>
+					        <div class='container courses__item_bottom'>
+					            <div class='row align-items-center p-1'>
+						            <div class='col-7 text-left'>9 - 11 классы</div>
+						            <div class='col-5 text-right' style='font-weight:bold;font-size:13px;'>990 р/занятие</div>
+					            </div>
+					        </div>
+				        </div>
+			        </a>
+			
+				    <a class='courses__item col-12 col-md-6 col-lg-6' href='https://inginirium.ru/courses/AR-development-9-11-intensive-online' style='background: url(https://inginirium.ru/files/course/%D0%A0%D0%90%D0%97%D0%A0%D0%90%D0%91%D0%9E%D0%A2%D0%9A%D0%90%20%D0%9F%D0%A0%D0%98%D0%9B%D0%9E%D0%96%D0%95%D0%9D%D0%98%D0%99%20%D0%94%D0%9E%D0%9F%20%D0%A0%D0%95%D0%90%D0%9B%D0%AC%D0%9D%D0%9E%D0%A1%D0%A2%D0%98.svg) center 50px no-repeat;background-size: 123px 123px;'>
+				        <div class='courses__item_inner_wrap rounded'>
+					        <div class='courses__item_title flex-grow-1'>Разработка приложений доп. реальности. Онлайн-интенсив. 9-11 класс</div>
+					        <div class='container courses__item_bottom'>
+					            <div class='row align-items-center p-1'>
+						            <div class='col-7 text-left'>9 - 11 классы</div>
+						            <div class='col-5 text-right' style='font-weight:bold;font-size:13px;'>990 р/занятие</div>
+					            </div>
+					        </div>
+				        </div>
+				    </a>
+			
+				    <a class='courses__item col-12 col-md-6 col-lg-6' href='https://inginirium.ru/courses/java-5-8-intensive-online' style='background: url(https://inginirium.ru/files/course/ONLINE-%D0%9E%D0%91%D0%A3%D0%A7%D0%95%D0%9D%D0%98%D0%95.png) center 50px no-repeat;background-size: 123px 123px;'>
+				        <div class='courses__item_inner_wrap rounded'>
+					        <div class='courses__item_title flex-grow-1'>Java разработчик 1 уровень</div>
+					        <div class='container courses__item_bottom'>
+					            <div class='row align-items-center p-1'>
+						            <div class='col-7 text-left'>5 - 8 классы</div>
+						            <div class='col-5 text-right' style='font-weight:bold;font-size:13px;'>5940 р/занятие</div>
+					            </div>
+					        </div>
+				        </div>
+				    </a>
+			    </div>
+	        </div>
+	    <div class='col-12 col-xl'>
+		    <div class='d-none d-xl-block course__mainblock__cta main__courses_more_cta'>
+			    <div id='cta_course_wrap'>
+			        <div class='course__mainblock__cta__title'>Записаться на курсы</div>
+			        <form class='course__mainblock__cta__form' method='post' id='cta_course_form'>
+			            <input class='course__mainblock__cta__form_text' type='text' name='name' placeholder='Ваше имя'>
+			            <input class='course__mainblock__cta__form_text' type='text' name='phone' placeholder='Номер телефона *' required>
+			            <input type='hidden' name='form' value='Записаться на курсы'>
+			            <input class='course__mainblock__cta__form_submit' type='button' id='cta_course_submit' onclick="yaCounter44599405.reachGoal('get_lead'); return true;" value='Записаться'>
+			        </form>
+			        <div class='course__mainblock__cta__consent'>Нажимая на кнопку "Записаться", вы принимаете "Согласие на обработку персональных данных" и подтверждаете, что ознакомлены с "Политикой конфиденциальности".</div>
+			    </div>
+			    <div id='cta_course_response_wrap'><h2>Спасибо!</h2><br>Мы ответим Вам после 9 утра</div>
+		    </div>
+		    <a class='main__courses_more_linkblock' href='https://inginirium.ru/courses'>ещё 3 курса<br>Инжинириум<br>МГТУ<br>им. Н.Э.Баумана</a>
+	    </div>
+	</div>		
+</div>		
+</div>		
+
+
+<div class='main__targetblock'>
+<div class='container'>
+<div class='row'>
+	<div class='col-12 col-lg-6'>
+		<div class='main__targetblock_target'>НАША ЦЕЛЬ —<br>создание нового поколения<br>молодых инженеров</div>
+		<div class='d-none d-lg-block main__targetblock_target_list pt-4'>
+		<ul>
+		<li>Поиск талантов и простор для творчества</li>
+		<li>Профориентация в лучшем техническом ВУЗе России</li>
+		<li>Современное оборудование и увлеченные преподаватели</li>
+		</ul>
+		</div>
+	</div>
+	<div class='col-12 col-lg-6 py-3 py-lg-0'><img alt='Наша цель' class='img-fluid' src='https://inginirium.ru/img/tgpic.png'></div>
+	<div class='col-12 d-lg-none main__targetblock_target_list'>
+		<ul>
+		<li>Поиск талантов и простор для творчества</li>
+		<li>Профориентация в лучшем техническом ВУЗе России</li>
+		<li>Современное оборудование и увлеченные преподаватели</li>
+		</ul>
+	</div>
+
+	<div class='col-12 py-3'>
+		<div class='row text-center align-items-center'>
+			<div class='col-4 col-md order-1 order-md-1 py-2'><img alt='МГТУ им. Н.Э.Баумана' class='img-fluid' src='https://inginirium.ru/img/mgtu.png'></div>
+			<div class='col-4 col-md order-2 order-md-2 py-2'><img alt='Министерство Экономического Развития РФ' class='img-fluid' src='https://inginirium.ru/img/merrf.png'></div>
+			<div class='col-6 col-md order-4 order-md-3 py-2'><img alt='ДПИР' class='img-fluid' src='https://inginirium.ru/img/dpir.png'></div>
+			<div class='col-6 col-md order-5 order-md-4 py-2'><img alt='Композиты России' class='img-fluid' src='https://inginirium.ru/img/komros.png'></div>
+			<div class='col-4 col-md order-3 order-md-5 py-2'><img alt='Агентство инновация' class='img-fluid' src='https://inginirium.ru/img/aim.png'></div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+
+
+<div class='container main__news_block'>
+<div class='row'>
+<div class='col-12 my-3 text-center'><h2>Новости</h2></div>
+
+<a class='col-12 col-md-6 col-xl-4 mx-auto main__news_blocklink' href='news/article/6958'>
+<div class='main__news_item'>
+	<div class='main__news_item_date'>09&nbsp;сентября&nbsp;2023</div>
+	<div class='main__news_item_title_box'><div class='main__news_item_title'>Мастер-классы в рамках проекта «ИТ-навигатор»</div></div>
+	<div class='main__news_item_desc text_medium'>4, 5 и 6 сентября прошли мастер-классы в рамках проекта «ИТ-навигатор» для школьников ГБОУ «Инженерная школа 1581» для учащихся 7-10 классов при поддержке… </div>
+	<img alt='Новости Инжинириум МГТУ им. Н.Э.Баумана' style='position:absolute;bottom:0;left:0;' src='https://inginirium.ru/img/newsitembg.png'>
+</div>
+</a>
+<a class='col-12 col-md-6 col-xl-4 mx-auto main__news_blocklink' href='news/article/6957'>
+<div class='main__news_item'>
+	<div class='main__news_item_date'>08&nbsp;сентября&nbsp;2023</div>
+	<div class='main__news_item_title_box'><div class='main__news_item_title'>«Инжинириум МГТУ им. Н.Э. Баумана» реализует проект «ИТ-навигатор» при поддержке РДДМ Движение Первых</div></div>
+	<div class='main__news_item_desc text_medium'>В рамках проекта «ИТ-навигатор» будут организованы и проведены профориентационные мастер-классы в области информационных технологий по нескольким… </div>
+	<img alt='Новости Инжинириум МГТУ им. Н.Э.Баумана' style='position:absolute;bottom:0;left:0;' src='https://inginirium.ru/img/newsitembg.png'>
+</div>
+</a>
+<a class='col-12 col-md-6 col-xl-4 mx-auto main__news_blocklink' href='news/article/6959'>
+<div class='main__news_item'>
+	<div class='main__news_item_date'>30&nbsp;августа&nbsp;2023</div>
+	<div class='main__news_item_title_box'><div class='main__news_item_title'>Семейная Москва</div></div>
+	<div class='main__news_item_desc text_medium'>Команда «Инжинириум МГТУ им. Н.Э. Баумана»** благодаря проекту «Семейная Москва»* познакомила 213 школьников 1-11 классов г. Москвы, а также их родителей с… </div>
+	<img alt='Новости Инжинириум МГТУ им. Н.Э.Баумана' style='position:absolute;bottom:0;left:0;' src='https://inginirium.ru/img/newsitembg.png'>
+</div>
+</a><div class='col-12 col-md-6 col-xl-12 my-4 my-md-0 my-xl-4 align-self-center text-center'><a class='main__news_morelink' href='/news/'>Перейти ко всем новостям</a></div>
+</div>
+</div>
+<div class='my-5 text-center'><h2>Учебные центры Инжинириум МГТУ им. Н.Э.Баумана</h2></div>
+<!--API YANDEX-->
+<script src='https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=509bdf6d-9725-4ad6-9815-c5c269121703'></script>
+<script src='https://inginirium.ru/js/ymap.js'></script>
+<div class='branch_map' id='coursemap' style='width: 100%; height: 650px'></div>
+
+
+<div class='container'>
+<div class='row px-4'>
+	<div class='col-12 col-md-6 main__faq_pic'></div>
+	<div class='col-12 col-md-6 main__faq_block'>
+		<div class='main__faq_title'>Ответы на ваши вопросы</div>
+		<ul>
+		<li>Какая длительность одного занятия?</li>
+		<li>Сколько длится полный курс?</li>
+		<li>Есть ли дни открытых дверей?</li>
+		<li>ОСТАЛИСЬ ВОПРОСЫ?</li>
+		</ul>
+		<div class='main__faq_sub'>Читайте <a href='https://inginirium.ru/faq/'>ответы на частые вопросы</a><br>или позвоните нам:<br>
+		<a class='main__faq_sub_phone'href='tel:+74951209975'>+7 (495) 120-99-75</a></div>
+	</div>
+</div>
+</div>
+
+</div>
+<div class='footer'>
+
+<div class='footer__copyrights'>
+ <div class="container">
+	<div class='row'>
+		<div class='col-12 col-lg-6 py-3'>
+			<div class="row justify-content-center justify-content-sm-start">
+				<div class='footer__copyrights__logo col-12 col-sm-auto text-center text-sm-left'><img alt='Инжинириум МГТУ им. Н.Э.Баумана' src='https://inginirium.ru/img/logo_small.png'></div>
+				<div class='footer__copyrights__text col-12 col-sm text-center text-sm-left'>Все права защищены</div>
+			</div>
+		</div>
+		
+		<div class='footer_link_item col-12 d-block d-sm-none justify-content-center'>		
+		    <div class='footer_link_item_mobilewrap'>		
+			    Телефон: <b><a href='tel:88005005617'>8 800 500 56 17</a></b><br>
+			    Для СМИ: <b><a href='mailto:press@emtc.ru'>press@emtc.ru</a></b><br>
+			    Хотите работать у нас?<br>
+			    <b><a href='mailto:a@inginirium.ru'>a@inginirium.ru</a></b><br>
+			    <hr style='color: black;'>
+			    <div class='container' style='padding:0 10px;'>
+			        <div class='row justify-content-center'>
+				        <div class='col-auto px-2'><a href='https://vk.com/inginirium'><img alt='ВКонтакте' style='height:30px;' src='img/vk-logo.svg'></a></div>
+				        <div class='col-auto px-2'><a href='https://www.youtube.com/channel/UCBx0xw9L-vvIkiNeCWrP75Q'><img alt='YouTube' src='/img/yt.png'></a></div>
+			        </div>
+			    </div>
+		    </div>
+		</div>
+		<div class='col-12 col-lg-6 py-3'>
+			<div class="row justify-content-center justify-content-sm-end">
+				<div class='footer__copyrights__logo2 col-12 col-sm-auto text-center text-sm-left'><a href='https://emtc.ru' rel='noopener' target='_blank'><img alt='Композиты России' src='https://inginirium.ru/img/krlogo.png'></a></div>
+				<div class='footer__copyrights__text2 col-12 col-sm'><span class='footer__copyrights__text2_title'>«Инжинириум МГТУ им. Н.Э. Баумана»</span><br> - проект под управлением Центра НТИ «Цифровое материаловедение: новые материалы и вещества» МГТУ им. Н.Э. Баумана.</div>
+			</div>		
+		</div>
+	</div>
+  </div>
+</div>
+
+    <div class='footer__links'>
+        <div class="container">
+	        <div class="row justify-content-between">
+		        <div class='footer_link_item col-12 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/about/'>О НАС</a></span><br>
+			        <a href='https://inginirium.ru/price/'>Цены и скидки</a><br>
+			        <a href='https://inginirium.ru/faq/'>Ответы на частые вопросы</a><br>
+			        <a href='https://inginirium.ru/about/#teachers'>Преподаватели</a><br>
+			        <a href='https://inginirium.ru/feedback/'>Отзывы</a><br>
+			        <a href='https://inginirium.ru/about/#partners'>При поддержке</a><br>
+			        <a href='https://inginirium.ru/news/'>Новости</a><br>	
+			        <a href='https://inginirium.ru/press/'>СМИ о нас</a><br>	
+			        <a href='https://inginirium.ru/brand/'>Фирменный стиль</a>		
+		        </div>
+		        <div class='footer_link_item col-12 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/courses/'>КУРСЫ</a></span><br>
+			        <a href='https://inginirium.ru/course.php?cat=10'>Дошкольники</a><br>
+			        <a href='https://inginirium.ru/course.php?cat=1'>1-4 класс</a><br>
+			        <a href='https://inginirium.ru/course.php?cat=2'>5-8 класс</a><br>
+			        <a href='https://inginirium.ru/course.php?cat=3'>9-11 класс</a><br>
+			        <a href='https://inginirium.ru/course.php?online=1'>Онлайн</a><br>
+			        <a href='https://inginirium.ru/schedule/'>Расписание</a><br>
+			        <a href='https://inginirium.ru/master-classes/'>Мастер-классы</a>
+		        </div>
+		        <div class='footer_link_item col-12 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/technopark/'>ТЕХНОПАРКИ</a></span><br>
+			        <a href='https://inginirium.ru/technopark/'>О технопарках</a><br>
+			        <a href='https://inginirium.ru/cmit/'>ЦМИТ</a><br>
+			        <a href='https://inginirium.ru/students/'>Работа со студентами</a>
+		        </div>
+		        <div class='footer_link_item col-12 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/branches/'>ФИЛИАЛЫ</a></span><br>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/camps/'>ЛАГЕРЯ</a></span><br>
+		        </div>
+		        <div class='footer_link_item col-12 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/docs/'>ДОКУМЕНТЫ</a></span><br>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/franchise/'>ФРАНШИЗА</a></span>
+		        </div>
+		        <div class='footer_link_item col-7 col-sm-6 col-md-4 col-xl-auto d-none d-sm-block'>
+			        <span class='footer_link_item_header'><a href='https://inginirium.ru/contacts/'>КОНТАКТЫ</a></span><br>
+			        Телефон: <b><a href='tel:88005005617'>8 800 500 56 17</a></b><br>
+			        Для СМИ: <b><a href='mailto:press@emtc.ru'>press@emtc.ru</a></b><br>
+			        Хотите работать у нас?<br>
+			        <b><a href='mailto:a@inginirium.ru'>a@inginirium.ru</a></b><br>
+			        <hr style='color: black;'>
+			        <div class='container' style='padding:0 10px;'>
+			            <div class='row justify-content-start'>
+				            <div class='col-auto px-2'><a href='https://vk.com/inginirium'><img alt='ВКонтакте' style='height:30px;' src="img/vk-logo.svg"></a></div>
+				            <div class='col-auto px-2'><a href='https://www.youtube.com/channel/UCBx0xw9L-vvIkiNeCWrP75Q'><img alt='YouTube' style='height:30px;' src="img/youtube-svgrepo-com.svg"></a></div>
+			            </div>
+			        </div>
+		        </div>
+	        </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!--МОДАЛКАА-->
+<div class="modal fade" id="mainCTA" tabindex="-1" role="dialog" aria-labelledby="mainCTALabel" aria-hidden="true">
+ <div class="modal-dialog" role="document">
+   <div class="modal-content">
+    <form method='post' id='main_popup_cta_form'>
+     <div class="modal-header">
+	  <div class='modal-inner'>
+       <div class="modal-title" id="mainCTALabel">Запишем на курсы и ответим на любые Ваши вопросы</div>
+	  </div>
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         <span aria-hidden="true">&times;</span>
+       </button>
+     </div>
+     <div class="modal-body">
+	  <div class='modal-inner' id='main_popup_cta_body'>
+       <input class='modal-header_input' type='text' name='name' placeholder='Ваше имя'>
+	   <input class='modal-header_input' type='text' name='phone' placeholder='Телефон *' required>
+	   <input class='modal-header_input' type='text' name='email' placeholder='E-mail'>
+	   <textarea class='modal-header_textarea' type='text' name='textmessage' placeholder='Комментарий'></textarea>
+      </div>
+	  <div class='modal-inner-response' style='display:none;' id='main_popup_cta_response_wrap'><img alt='Загрузка' class='loader' src='https://inginirium.ru/img/loader_w.png'></div>
+     </div>
+     <div class="modal-footer" id='main_popup_cta_footer'>
+	  <div class='modal-inner text-center'>
+       <input type="button" id='main_popup_cta_submit' class="modal-inner_submit" value='Отправить'>
+	   Нажимая на кнопку "Отправить", вы принимаете "Согласие на обработку персональных данных" и подтверждаете, что ознакомлены с "Политикой конфиденциальности"</a>.
+	  </div>
+	 </div>
+    </form>
+   </div>
+ </div>
+</div>
+
+<script src="header-burger.js"></script>
+
+</body>
+</html>

@@ -330,7 +330,6 @@ h4 {font-family:'PFAgoraSlabPro', Arial;font-weight:bold;font-size:18px;line-hei
 .fof__digit {color:#813f8e;font-size:80px;font-weight:bold;}
 .fof__title {color:#813f8e;font-size:26px;font-weight:bold;}
 }
-
 @media (min-width: 576px) and (max-width: 767px) {
 .sm-header {display:none;}
 .sm-body__menu {display:none;}
@@ -428,7 +427,6 @@ h4 {font-family:'PFAgoraSlabPro', Arial;font-weight:bold;font-size:18px;line-hei
 .exam__form select.exam__form_select_courses {background-position:96% 9px;}
 .exam__form {padding:40px 0;font-size:14px;}
 }
-
 @media (min-width: 768px) and (max-width: 991px) { 
 .sm-header {display:none;}
 .sm-body__menu {display:none;}
@@ -514,7 +512,6 @@ h4 {font-family:'PFAgoraSlabPro', Arial;font-weight:bold;font-size:18px;line-hei
 .exam__terms__stage_examples {font-size:18px;}
 .exam__lowheader {font-size:24px;line-height:1.2;padding:30px 15px 0 15px;}
 }
-
 @media (min-width: 992px) and (max-width: 1199px) { 
 .sm-header {display:none;}
 .sm-body__menu {display:none;}
@@ -569,7 +566,6 @@ h4 {font-family:'PFAgoraSlabPro', Arial;font-weight:bold;font-size:18px;line-hei
 .exam__heading_text {font-size:33px;line-height:46px;padding:10px 0;}
 .exam__heading_body {font-size:20px;line-height:30px;padding:10px 0;}
 }
-
 @media (min-width: 1200px) {
 .sm-header {display:none;}
 .sm-body__menu {display:none;}
@@ -579,7 +575,7 @@ h4 {font-family:'PFAgoraSlabPro', Arial;font-weight:bold;font-size:18px;line-hei
 .d-head {padding:25px 0 20px 0;}
 .d-header__title {font-weight:bold;text-transform:uppercase;}
 .d-header__region-selector {text-align:center;}
-.d-header__region-selector select.cityselect {line-height:45px;height:45px;border:1px solid #999999;-webkit-border-radius:23px;border-radius:23px;text-align:center;width:200px;padding:0 20px;outline:none;background: url('/img/arr.svg') 87% / 6% no-repeat;}
+.d-header__region-selector select.cityselect {line-height:45px;height:45px;border:1px solid #999999;-webkit-border-radius:23px;border-radius:23px;text-align:center;width:200px;padding:0 20px;outline:none;background: url('') 87% / 6% no-repeat;}
 .d-header__cta {text-align:right;}
 .d-header__cta button {line-height:45px;border:1px solid #813f8e;border-radius:23px;text-align:center;color:#ffffff;background-color:#813f8e;text-transform:uppercase;width:200px;outline:none;}
 .d-menu {font-family:'Montserrat',sans-serif;font-weight:medium;font-size:14px;padding: 5px 0 30px 0;text-transform:uppercase;color:#1e0f00;}
